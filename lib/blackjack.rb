@@ -49,6 +49,7 @@ def hit? num
   else
     invalid_command
   end
+  return num
 end
 
 def invalid_command
@@ -62,9 +63,9 @@ end
 
 def runner
   # code runner here
-  #welcome 
-  #initial_round
-  until 
-  #hit?
+  welcome 
+  initial_round
+  hit?
+  
 end
     
